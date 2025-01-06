@@ -41,11 +41,12 @@ Cela lancera le serveur de développement sur http://localhost:3000.
 # Technologies utilisées
 Ce projet utilise les technologies suivantes :
 
-React.js : Bibliothèque JavaScript pour la création d'interfaces utilisateur.
-Tailwind CSS : Framework CSS utilitaire pour un design rapide et flexible.
-React Router : Pour la gestion des routes et de la navigation entre les pages.
-Git : Pour le contrôle de version et la gestion du code source.
-Auteurs
+- React.js : Bibliothèque JavaScript pour la création d'interfaces utilisateur.
+- Tailwind CSS : Framework CSS utilitaire pour un design rapide et flexible.
+- React Router : Pour la gestion des routes et de la navigation entre les pages.
+- Git : Pour le contrôle de version et la gestion du code source.
+
+# Auteurs
 Kylian Lagache - Créateur du projet
 
 # Amélioration
