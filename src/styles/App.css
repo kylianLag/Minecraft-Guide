@@ -1,0 +1,35 @@
+*{
+  list-style-type : none;
+}
+
+.App {
+  text-align: center;
+  
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.guide-section {
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+}
+
+h2 {
+  color: #333;
+}
+
+
