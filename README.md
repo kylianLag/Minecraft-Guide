@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# Minecraft Guide
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bienvenue sur **Minecraft Guide**, le site de référence pour tous les joueurs de Minecraft ! Ce site vous offre un guide complet pour vous aider à tirer le meilleur parti de votre expérience dans le monde de Minecraft. Il comprend des astuces pour les constructions, des informations sur les mobs, les minerais, ainsi qu'une liste d'objectifsà accomplir et des texture pack pour rendre votre gameplay plus immersif.
 
-## Available Scripts
+## Fonctionnalités
 
-In the project directory, you can run:
+Voici ce que vous trouverez sur le site :
 
-### `npm start`
+- **Guide Complet :** Un guide détaillé pour vous aider à démarrer dans Minecraft et vous perfectionner au fur et à mesure de votre aventure.
+- **Astuces de Construction :** Des conseils pratiques pour améliorer vos constructions et rendre vos créations plus impressionnantes.
+- **Les Mobs :** Une liste complète des créatures, animaux et monstres du jeu avec leurs caractéristiques et leurs drops.
+- **Les Minerais :** Découvrez les différents minerais du jeu, leurs caractéristiques et comment les extraire efficacement.
+- **Objectifs :** Une série d'objectifs que vous pouvez accomplir pour rendre votre expérience plus stimulante et immersive.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Prérequis
 
-### `npm test`
+Assurez-vous d'avoir [Node.js](https://nodejs.org) installé sur votre machine.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Étapes d'installation
 
-### `npm run build`
+1. Clonez ce dépôt sur votre machine :
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   git clone https://github.com/ton-compte/minecraft-guide.git
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Accédez au répertoire du projet :
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    cd minecraft-guide
 
-### `npm run eject`
+3. Installez les dépendances :
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    npm install
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Lancez le projet localement :
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    npm start
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Cela lancera le serveur de développement sur http://localhost:3000.
 
-## Learn More
+# Technologies utilisées
+Ce projet utilise les technologies suivantes :
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+React.js : Bibliothèque JavaScript pour la création d'interfaces utilisateur.
+Tailwind CSS : Framework CSS utilitaire pour un design rapide et flexible.
+React Router : Pour la gestion des routes et de la navigation entre les pages.
+Git : Pour le contrôle de version et la gestion du code source.
+Auteurs
+Kylian Lagache - Créateur du projet
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Amélioration
+Si vous souhaitez améliorer le site, n'hésitez pas à ouvrir une issue pour discuter des améliorations possibles.
