@@ -4,13 +4,10 @@ import block_brique from "../assets/icons/block_brique.webp";
 import creeper from "../assets/icons/creeper.webp";
 import diamond from "../assets/icons/diamond.webp";
 import diamond_pickaxe from "../assets/icons/diamond_pickaxe.webp";
+import Animated from "../components/HoverAnimation";
 import Introduction from "../components/Introduction";
 import MinecraftButton from "../components/MinecraftButton";
 function Home() {
-    const handleExploreClick = () => {
-        alert("Bienvenue dans l'univers Minecraft !");
-    };
-
     return (
         
                 <main className="bg-amber-50 max-w-6xl ml-[23.5%] p-8">
@@ -25,9 +22,7 @@ function Home() {
                 <section className="features">
                     <h3 className="text-center text-2xl font-bold mb-6">Ce que vous trouverez sur Minecraft Guide :</h3>
                     <ul className="text-center items-center space-y-4 ">
-                        <li className=" gap-2 inline-flex hover:scale-105 transition-transform duration-300">
-                        <   img class = " w-6" src={diamond_pickaxe} alt="Pioche en diamant" className="w-6 h-6" /><strong>Un Guide Complet :</strong> Découvrez tous les secrets du jeu pour bien démarrer et aller plus loin dans vos aventures Minecraft.
-                        </li>
+                        <Animated src={diamond_pickaxe} alt="Pioche en diamant" className="w-6 h-6" title = "Un Guide Complet : " text = "Découvrez tous les secrets du jeu pour bien démarrer et aller plus loin dans vos aventures Minecraft."/>
                         <li className="gap-2 inline-flex hover:scale-105 transition-transform duration-300">
                             <img class = "w-6" src={block_brique} alt="block de brique" className="w-6 h-6" /> <strong>Astuces de Construction : </strong> Améliorez vos constructions grâce à nos astuces qui vont révolutionner vos constructions.
                         </li>
@@ -53,7 +48,7 @@ function Home() {
                     </div>
                 </section>
 
-                {/* Section en vedette */}
+                {/* Section Astuce du jour */}
                 <section className="text-center mx-auto max-w-5xl p-8 featured bg-yellow-100 max-w-4xl p-6 mt-8 rounded-lg">
                     <h3 className="text-xl font-bold mb-4">💡 Astuce du jour :</h3>
                     <p>Savez-vous que les Endermen deviennent neutres si vous portez une citrouille ? Essayez-le lors de votre prochaine aventure !</p>
@@ -66,6 +61,8 @@ function Home() {
                         En savoir plus
                     </Link>
                 </section>
+                
+                
 
 
             </main>
