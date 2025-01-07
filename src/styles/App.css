@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Minecraftia';
+  src: url('./assets/police/Minecraft.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 *{
   list-style-type : none;
 }
@@ -32,4 +38,7 @@ h2 {
   color: #333;
 }
 
+.font-minecraftia{
+  font-family: 'Minecraftia', sans-serif;
+}
 
