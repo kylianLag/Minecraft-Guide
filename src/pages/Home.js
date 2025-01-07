@@ -25,19 +25,19 @@ function Home() {
                 <section className="features">
                     <h3 className="text-center text-2xl font-bold mb-6">Ce que vous trouverez sur Minecraft Guide :</h3>
                     <ul className="text-center items-center space-y-4 ">
-                        <li className=" inline-flex hover:scale-105 transition-transform duration-300">
-                        <   img class = "mr-2 w-6" src={diamond_pickaxe} alt="Pioche en diamant" className="w-6 h-6" /><strong>Un Guide Complet :</strong> Découvrez tous les secrets du jeu pour bien démarrer et aller plus loin dans vos aventures Minecraft.
+                        <li className=" gap-2 inline-flex hover:scale-105 transition-transform duration-300">
+                        <   img class = " w-6" src={diamond_pickaxe} alt="Pioche en diamant" className="w-6 h-6" /><strong>Un Guide Complet :</strong> Découvrez tous les secrets du jeu pour bien démarrer et aller plus loin dans vos aventures Minecraft.
                         </li>
-                        <li className="inline-flex hover:scale-105 transition-transform duration-300">
-                            <img class = "mr-2 w-6" src={block_brique} alt="block de brique" className="w-6 h-6" /> <strong>Astuces de Construction : </strong> Améliorez vos constructions grâce à nos astuces qui vont révolutionner vos constructions.
+                        <li className="gap-2 inline-flex hover:scale-105 transition-transform duration-300">
+                            <img class = "w-6" src={block_brique} alt="block de brique" className="w-6 h-6" /> <strong>Astuces de Construction : </strong> Améliorez vos constructions grâce à nos astuces qui vont révolutionner vos constructions.
                         </li>
-                        <li className="inline-flex hover:scale-105 transition-transform duration-300">
+                        <li className="gap-2 inline-flex hover:scale-105 transition-transform duration-300">
                             <img class = "w-8 mr-1"src={creeper} alt="slime" className="w-6 h-6" /> <strong>Les Mobs :</strong> Une liste complète des animaux et monstres que vous pouvez rencontrer dans le jeu, avec leurs caractéristiques et leurs loots.
                         </li>
-                        <li className="inline-flex hover:scale-105 transition-transform duration-300">
-                            <img class = "mr-2 w-6" src={diamond} alt="diamond" className="w-6 h-6" /> <strong>Les Minerais :</strong> Une liste détaillée des minerais que vous pouvez extraire, avec leurs caractéristiques.
+                        <li className="gap-2  inline-flex hover:scale-105 transition-transform duration-300">
+                            <img class = " w-6" src={diamond} alt="diamond" className="w-6 h-6" /> <strong>Les Minerais :</strong> Une liste détaillée des minerais que vous pouvez extraire, avec leurs caractéristiques.
                         </li>
-                        <li className="inline-flex hover:scale-105 transition-transform duration-300 p-2">
+                        <li className="gap-2 inline-flex hover:scale-105 transition-transform duration-300 p-2">
                             🎯 <strong>Liste d'Objectifs :</strong> Atteignez les objectifs que nous avons élaborés pour un gameplay plus immersif et stimulant.
                         </li>
                     </ul>

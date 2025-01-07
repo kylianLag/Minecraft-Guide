@@ -22,7 +22,7 @@ Assurez-vous d'avoir [Node.js](https://nodejs.org) installé sur votre machine.
 
 1. Clonez ce dépôt sur votre machine :
 
-   git clone https://github.com/ton-compte/minecraft-guide.git
+   git clone https://github.com/kylianLag/minecraft-guide.git
 
 2. Accédez au répertoire du projet :
 

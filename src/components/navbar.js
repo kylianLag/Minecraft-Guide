@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div className="fixed top-0 left-0 w-1/6 h-screen bg-green-600 py-8 flex flex-col items-center shadow-2xl font-minecraftia z-10">
-      <h1 className="text-white text-3xl font-semibold mb-8">Minecraft Guide</h1>
+      <h1 className=" text-center text-white text-3xl font-semibold mb-8">Minecraft Guide</h1>
       <ul className="space-y-4">
         <li>
           <Link to="/" className="text-white text-lg hover:text-gray-300">
