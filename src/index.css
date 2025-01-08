@@ -23,4 +23,17 @@ code {
     monospace;
 }
 
+h2 {
+  color: #333;
+}
+
+.font-minecraftia{
+  font-family: 'Minecraftia', sans-serif;
+}
+
+
+.bg-coal{
+  background-color : #222222 ;
+}
+
 

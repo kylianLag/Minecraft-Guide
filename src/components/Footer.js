@@ -2,11 +2,13 @@ import React from "react";
 
 function Footer(){
     return(
-        <div>
-            <footer class = "flex-grow">
+        <div className=" bg-coal border-solid border-2 border-black ">
+            <footer class = " text-gray-50 flex-grow text-center max-w-6xl ml-[23.5%] p-8">
                 <p>&copy; 2025 Minecraft Guide. Tous droits réservés.</p>
                 <nav>
-                    <a href="/contact">Contact</a> | <a href="/terms">Mentions légales</a>
+                <a className="text-gray-50 hover:text-gray-300" href="/contact">Contact</a> | 
+                <a className="text-gray-50 hover:text-gray-300" href="/terms"> Mentions légales</a>
+
                 </nav>
             </footer>
         </div>

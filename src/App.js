@@ -9,7 +9,8 @@ import NotFound from './pages/NotFound';
 function App() {
   return (
     <Router>
-      <div className="flex bg-amber-50">
+      <div>
+        <div className="flex bg-amber-50">
         {/* Barre de Navigation */}
         <Navbar />
 
@@ -20,9 +21,11 @@ function App() {
             <Route path="/guide" element={<GuidePage />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
+          
         </div>
+        <Footer />
+      </div>
       
-      <Footer />
     </Router>
   );
 }
