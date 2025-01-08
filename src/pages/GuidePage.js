@@ -4,6 +4,7 @@ import Minecraft_Accueil from '../assets/img/Minecraft_Accueil.webp';
 import AnnoncePartage from '../components/AnnoncePartage';
 import Introduction from '../components/Introduction';
 import MinecraftButton from '../components/MinecraftButton';
+import SommaireAnimation from '../components/SommaireAnimation';
 function GuidePage() {
   return (
     <main className="bg-amber-50 max-w-6xl ml-[23.5%] p-8">
@@ -15,23 +16,7 @@ function GuidePage() {
         Que vous soyez un explorateur ou un constructeur, ce guide vous aidera à tirer le meilleur parti de Minecraft."
 
       />
-      <h2 className='pb-3'><strong>Sommaire du Guide de Survie</strong></h2>
-      <ul>
-        <li className=' pb-1'>Introduction</li>
-        <li className=' pb-1'>Premier Pas</li>
-        <li className=' pb-1'>Maîtrise de l'Artisanat et des Recettes de Craft</li>
-        <li className=' pb-1'>Survivre aux Premiers Ennemi et Monstres</li>
-        <li className=' pb-1'>Explorer les Cavernes et Miner des Ressources Précieuses</li>
-        <li className=' pb-1'>Créer un Système de Fermes et de Ressources Illimitées</li>
-        <li className=' pb-1'>Comprendre les Enchantements et Améliorer vos Équipements</li>
-        <li className=' pb-1'>Le Nether</li>
-        <li className=' pb-1'>Les Potions</li>
-        <li className=' pb-1'>L'end et L'Ender Dragon</li>
-        <li className=' pb-1'>La Suite aprés la fin</li>
-        <li className=' pb-1'>Conclusion</li>
-        
-      </ul>
-
+      <SommaireAnimation/>
       <section className="bg-white p-6 mt-6 rounded-lg shadow-md">
         <h3 className="text-xl font-bold mb-4">Pourquoi un guide de survie ?</h3>
         <p>
@@ -39,7 +24,7 @@ function GuidePage() {
         </p>
       </section>
         <img className = "mt-8" src={Minecraft_Accueil}/>
-      <AnnoncePartage 
+      <AnnoncePartage
         title ="Envie d'ajouter vos Conseils Minecraft ?"
         content = "Rejoignez notre communauté et partagez vos secrets avec d'autres joueurs !"
       />

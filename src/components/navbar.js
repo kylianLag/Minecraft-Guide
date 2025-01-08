@@ -18,7 +18,11 @@ const Navbar = () => {
         </li>
         <li className="text-white text-lg hover:text-gray-300">Mobs</li>
         <li className="text-white text-lg hover:text-gray-300">Minerais</li>
+        <li className="text-white text-lg hover:text-gray-300">Enchantements</li>
+        <li className="text-white text-lg hover:text-gray-300">Potions</li>
+        <li className="text-white text-lg hover:text-gray-300">Ferme Automatique</li>
         <li className="text-white text-lg hover:text-gray-300">Objectifs</li>
+
       </ul>
     </div>
   );

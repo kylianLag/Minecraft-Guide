@@ -4,8 +4,8 @@ import block_brique from "../assets/icons/block_brique.webp";
 import creeper from "../assets/icons/creeper.webp";
 import diamond from "../assets/icons/diamond.webp";
 import diamond_pickaxe from "../assets/icons/diamond_pickaxe.webp";
+import Animated from "../components/AnimationHover";
 import AnnoncePartage from "../components/AnnoncePartage";
-import Animated from "../components/HoverAnimation";
 import Introduction from '../components/Introduction';
 import MinecraftButton from "../components/MinecraftButton";
 function Home() {
