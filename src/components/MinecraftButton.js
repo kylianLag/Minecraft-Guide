@@ -8,5 +8,5 @@ const MinecraftButton = ({ text }) => {
     </button>
   );
 };
-
+// Retourne le bouton avec le texte dynamique et les styles définis.
 export default MinecraftButton;
